@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	
+	"name": "Italeem Hack Plugin",
+	"description": "This extension will remove annoying notification",
+	"version": "1.0",
+	
+	"browser_action": {
+		"default_title": "Hack Italeem",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+		},
+	"content_scripts" : [{
+		"matches" : ["http://italeem.iium.edu.my/2015/*"],
+		"js" : ["contentscript.js"]
+		}],
+		
+		"permissions": [
+		"http://italeem.iium.edu.my/2015/my/"
+		]
+		}
+		
