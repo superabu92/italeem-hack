@@ -11,12 +11,12 @@
 		"default_popup": "popup.html"
 		},
 	"content_scripts" : [{
-		"matches" : ["http://italeem.iium.edu.my/2015/*"],
+		"matches" : ["http://italeem.iium.edu.my/*/*"],
 		"js" : ["contentscript.js"]
 		}],
 		
 		"permissions": [
-		"http://italeem.iium.edu.my/2015/my/"
+		"http://italeem.iium.edu.my/*/my/"
 		]
 		}
 		
